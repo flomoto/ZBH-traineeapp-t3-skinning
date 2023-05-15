@@ -1,0 +1,52 @@
+page = PAGE
+page {
+	
+	client {
+		name.value = Deutscher Konditorenbund (BIV)
+		phone.value = 030 4036654-18
+		email.value = app@konditoren.de
+		website.value = www.konditoren.de
+		
+		logo.value = /typo3conf/ext/skinning/Resources/Public/images/logo.svg
+		
+		linkAppWeb.value = /app
+		linkAppGoogle.value = https://play.google.com/store/apps/details?id=de.zubido.konditorenhandwerk
+		linkAppApple.value = https://apps.apple.com/us/app/azubi-app-konditorenhandwerk/id1612278124
+	}
+	
+	meta {
+		author = Deutscher Konditorenbund (BIV)
+	}
+	
+    headerData.10.value (
+		<script>
+			configPrivacy = {
+				googleAnalytics: "UA-217802521-1",
+			}
+		</script>
+	)
+    
+	headerData.30.value (
+		<link rel="preload" href="typo3conf/ext/skinning/Resources/Public/fonts/Libre-Caslon-Italic.woff2" as="font" crossorigin>
+	)
+
+	includeJS {
+	}
+	
+	
+	// generic
+
+	headerData.40.value (
+		<link rel="icon" href="/typo3conf/ext/skinning/Resources/Public/images/meta/favicon.ico">
+		<link rel="icon" type="image/png" href="/typo3conf/ext/skinning/Resources/Public/images/meta/favicon.png">
+
+		<link rel="apple-touch-icon" sizes="60x60" href="/typo3conf/ext/skinning/Resources/Public/images/meta/icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/typo3conf/ext/skinning/Resources/Public/images/meta/icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/typo3conf/ext/skinning/Resources/Public/images/meta/icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/typo3conf/ext/skinning/Resources/Public/images/meta/icon-152x152.png">
+	)
+
+	includeCSS {
+        skinning = EXT:skinning/Resources/Public/css/index.css
+	}
+}

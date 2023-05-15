@@ -1,0 +1,212 @@
+
+/* FONT */
+
+@font-face {
+	font-family: 'client';
+	src: url('../fonts/Libre-Caslon-Italic.woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+/* CONFIG */
+
+:root {	
+    --color-client: #8E165C;
+    --color-client-secondary: #FFF3E8;
+	
+    --color-special-1: #f1ece7;
+}
+
+
+/* OVERRIDES */
+
+header .logo {
+	height: 10rem;
+	padding-left: 0;
+    background-color: transparent;
+}
+@media only screen and (min-width: 640px)
+{
+	header .logo {
+		height: 16rem;
+	}
+}
+@media (hover: hover) and (pointer: fine)
+{
+	header nav a:hover i,
+    header nav button:hover i,
+	header nav a:hover,
+    header nav button:hover {
+		color: var(--color-grey-3);
+	}
+	
+	header .logo:hover > img {
+		opacity: 1;
+	}
+}
+
+
+nav.main {
+	padding: 5rem 0 3.2rem;
+}
+@media only screen and (min-width: 600px) and (min-height: 500px)
+{
+	nav.main {
+        padding: 2rem 0;
+	}
+}
+@media (hover: hover) and (pointer: fine)
+{
+    nav.main ul.menu a:hover {
+        color: var(--color-grey-3);
+    }
+    nav.main ul.menu li.active > a:hover::before {
+        background-color: var(--color-grey-3);
+    }
+}
+
+
+footer {
+    background: var(--color-client);
+}
+
+
+.el-keyvisual h1,
+.el-text h1, .el-text h2, .el-text h3, .el-text h4
+{
+	text-transform: uppercase;
+}
+
+.el-text h2
+{
+	line-height: 1.2;
+}
+
+
+.el-teaser article h3,
+.el-teaser-device article h3,
+.el-teaser-app article h2 
+{
+	font-size: var(--text-l);
+	color: var(--color-black);
+	text-transform: uppercase;
+}
+
+
+.st-background.color-3 ul.decorated li::before {
+    color: var(--color-white);
+}
+
+
+.st-background.color-2 {
+    background-color: var(--color-client-secondary);
+}
+
+
+.st-background
+{
+	padding: 6rem 0;
+}
+.st-background:first-child > .wrapper > .el-image:first-child
+{
+	margin-top: -6rem;
+}
+.st-background:first-child > .wrapper > .el-image:only-child
+{
+	margin: -6rem 0;
+}
+
+
+.el-teaser.highlight article h3
+{
+	color: var(--color-white);
+}
+
+
+.st-background.color-2 .el-accordion:nth-child(even) {
+	background-color: var(--color-white);
+}
+.st-background.color-2 .el-accordion:nth-child(odd) {
+	background-color: var(--color-special-1);
+}
+
+
+.st-background.color-1 .el-teaser-device article {
+    background-color: var(--color-client-secondary);
+}
+
+
+.el-teaser-app article {
+    background-color: var(--color-client-secondary);
+}
+
+
+/* SPECIALS */
+
+
+h1 {
+	display: inline !important;
+	padding: 0.15em 0.8em 0.075em;
+	
+	line-height: 1.75em;
+	color: var(--color-white);
+	
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+	
+	background-image: linear-gradient(110deg, transparent 50%, black 55%), linear-gradient(110deg, black 50%, transparent 55%), linear-gradient(to left, black, black);
+	background-size: 1em 100%, 1em 100%, calc(100% - 2em) 100%;
+	background-position: left, right, center;
+	background-repeat: no-repeat;
+	filter: drop-shadow(-5px -5px 0px #FDEBDB);
+}
+.el-text h1 + * {
+	margin-top: 2rem;
+}
+
+@media only screen and (max-width: 599px)
+{
+	/* .el-text h1 {
+		hyphens: manual;
+	} */
+	.el-keyvisual h1 {
+		padding: 0rem;
+		background: none;
+		filter: none;
+		line-height: 1.2;
+	}
+	
+	/* .st-background .el-text:only-child
+	{
+		margin-top: 3rem;
+	} */
+}
+
+@media only screen and (min-width: 600px)
+{
+	
+	h1 {
+		background-image: linear-gradient(110deg, transparent 50%, black 52%), linear-gradient(110deg, black 50%, transparent 52%), linear-gradient(to left, black, black);
+		/* background-size: 1em 80%, 1em 80%, calc(100% - 2em) 80%; */
+	}
+
+	.el-keyvisual h1
+	{
+		font-size: var(--text-xxxxl);
+	}
+	.el-text h1
+	{
+		font-size: var(--text-xxxl);
+	}
+	.el-text h2
+	{
+		font-size: var(--text-xxxl);
+	}
+}
+
+
+.el-video-youtube button svg .button-player {
+    fill: var(--color-client);
+}

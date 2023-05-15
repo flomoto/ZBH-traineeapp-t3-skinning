@@ -1,0 +1,30 @@
+{
+	"name": "zubido/skinning",
+	"version": "2.0.0",
+	"description": "DKB - Sitepackage-Skinning",
+	"type": "typo3-cms-extension",
+	"keywords": [
+	  "TYPO3",
+	  "Zubido"
+	],
+	"homepage": "https://www.zubido.de",
+	"support": {
+	  "issues": "https://www.zubido.de"
+	},
+	"license": "",
+	"require": {
+		"php": "^7.4",
+		"typo3/cms-core": "^11.5",
+		"zubido/sitepackage": "^2.0"
+	},
+	"autoload": {
+	  "psr-4": {
+		"Zubido\\Skinning\\": "Classes/"
+	  }
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "skinning"
+		}
+	}
+  }

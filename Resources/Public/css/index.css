@@ -13,10 +13,10 @@
 /* CONFIG */
 
 :root {	
-    --color-client: #8E165C;
-    --color-client-secondary: #FFF3E8;
+    --color-client: #FBB900;
+    --color-client-secondary: #eae8df;
 	
-    --color-special-1: #f1ece7;
+    --color-special-1: #ff0000;
 }
 
 
@@ -146,7 +146,7 @@ footer {
 /* SPECIALS */
 
 
-h1 {
+/* h1 {
 	display: inline !important;
 	padding: 0.15em 0.8em 0.075em;
 	
@@ -168,20 +168,12 @@ h1 {
 
 @media only screen and (max-width: 599px)
 {
-	/* .el-text h1 {
-		hyphens: manual;
-	} */
 	.el-keyvisual h1 {
 		padding: 0rem;
 		background: none;
 		filter: none;
 		line-height: 1.2;
 	}
-	
-	/* .st-background .el-text:only-child
-	{
-		margin-top: 3rem;
-	} */
 }
 
 @media only screen and (min-width: 600px)
@@ -189,7 +181,6 @@ h1 {
 	
 	h1 {
 		background-image: linear-gradient(110deg, transparent 50%, black 52%), linear-gradient(110deg, black 50%, transparent 52%), linear-gradient(to left, black, black);
-		/* background-size: 1em 80%, 1em 80%, calc(100% - 2em) 80%; */
 	}
 
 	.el-keyvisual h1
@@ -204,7 +195,7 @@ h1 {
 	{
 		font-size: var(--text-xxxl);
 	}
-}
+} */
 
 
 .el-video-youtube button svg .button-player {

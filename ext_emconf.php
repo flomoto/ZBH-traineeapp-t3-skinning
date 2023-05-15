@@ -1,6 +1,6 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'DKB - Sitepackage-Skinning',
+    'title' => 'ZBH - Sitepackage-Skinning',
     'description' => '',
     'author' => 'Florian Hauser // Zubido',
     'author_email' => 'info@zubido.de',

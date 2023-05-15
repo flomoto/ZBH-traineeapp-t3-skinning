@@ -2,16 +2,16 @@ page = PAGE
 page {
 	
 	client {
-		name.value = Deutscher Konditorenbund (BIV)
-		phone.value = 030 4036654-18
-		email.value = app@konditoren.de
-		website.value = www.konditoren.de
+		name.value = Werbegemeinschaft des Deutschen Bäckerhandwerks e. V.
+		phone.value = 030 206455-55
+		email.value = azubi-app@baeckerhandwerk.de
+		website.value = www.baeckerhandwerk.de
 		
 		logo.value = /typo3conf/ext/skinning/Resources/Public/images/logo.svg
 		
 		linkAppWeb.value = /app
-		linkAppGoogle.value = https://play.google.com/store/apps/details?id=de.zubido.konditorenhandwerk
-		linkAppApple.value = https://apps.apple.com/us/app/azubi-app-konditorenhandwerk/id1612278124
+		linkAppGoogle.value = https://play.google.com/store/apps/details?id=de.zubido.baeckerhandwerk
+		linkAppApple.value = https://apps.apple.com/us/app/xxx
 	}
 	
 	meta {
@@ -21,7 +21,7 @@ page {
     headerData.10.value (
 		<script>
 			configPrivacy = {
-				googleAnalytics: "UA-217802521-1",
+				googleTagmanager: "G-RK3L0Q42NV",
 			}
 		</script>
 	)

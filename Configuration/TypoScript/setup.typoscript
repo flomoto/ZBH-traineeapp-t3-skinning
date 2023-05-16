@@ -15,20 +15,21 @@ page {
 	}
 	
 	meta {
-		author = Deutscher Konditorenbund (BIV)
+		author = Werbegemeinschaft des Deutschen Bäckerhandwerks e. V.
 	}
 	
     headerData.10.value (
 		<script>
 			configPrivacy = {
 				googleTagmanager: "G-RK3L0Q42NV",
+				hotjar: "3493751"
 			}
 		</script>
 	)
-    
-	headerData.30.value (
-		<link rel="preload" href="typo3conf/ext/skinning/Resources/Public/fonts/Libre-Caslon-Italic.woff2" as="font" crossorigin>
-	)
+		 
+	# headerData.30.value (
+	#	<link rel="preload" href="typo3conf/ext/skinning/Resources/Public/fonts/Libre-Caslon-Italic.woff2" as="font" #crossorigin>
+	#)
 
 	includeJS {
 	}
@@ -47,6 +48,9 @@ page {
 	)
 
 	includeCSS {
+		# special font integration
+        fonts = https://use.typekit.net/fcu3ndq.css
+		
         skinning = EXT:skinning/Resources/Public/css/index.css
 	}
 }

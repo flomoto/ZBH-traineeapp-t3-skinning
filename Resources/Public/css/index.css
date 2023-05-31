@@ -73,6 +73,7 @@ header .logo {
 {
     header .logo
     {
+		margin-left: 1rem;
         height: 14rem;
     }
 }

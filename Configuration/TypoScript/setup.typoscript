@@ -27,9 +27,9 @@ page {
 		</script>
 	)
 		 
-	# headerData.30.value (
-	#	<link rel="preload" href="typo3conf/ext/skinning/Resources/Public/fonts/Libre-Caslon-Italic.woff2" as="font" #crossorigin>
-	#)
+	headerData.30.value (
+		<link rel="preload" href="typo3conf/ext/skinning/Resources/Public/fonts/AcuminCondensedUltraBlackItalic.woff2" as="font" #crossorigin>
+	)
 
 	includeJS {
 	}
@@ -48,9 +48,6 @@ page {
 	)
 
 	includeCSS {
-		# special font integration
-        fonts = https://use.typekit.net/fcu3ndq.css
-		
         skinning = EXT:skinning/Resources/Public/css/index.css
 	}
 }

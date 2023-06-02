@@ -1,13 +1,13 @@
 
 /* FONT */
 
-/* @font-face {
+@font-face {
 	font-family: 'client';
-	src: url('../fonts/Libre-Caslon-Italic.woff2');
+	src: url('../fonts/AcuminCondensedUltraBlackItalic.woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
-} */
+}
 
 
 /* CONFIG */
@@ -30,9 +30,7 @@ footer em,
 .el-teaser article h3,
 .el-teaser-device article h3
 {
-	font-family: "acumin-pro-condensed", 'inter', sans-serif;
-	font-weight: 900;
-	font-style: italic;
+	font-family: "client", 'inter', sans-serif;
 	
 	font-size: var(--text-xxxl);
 	line-height: 1;

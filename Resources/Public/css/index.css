@@ -97,6 +97,15 @@ nav.main ul.menu li.active > a::before {
 
 
 /* elements */
+/* .st-background.color-1 .el-teaser-device article,
+.el-teaser-app article,
+ul.decorated li:nth-child(odd) 
+{
+    background-color: var(--color-client-secondary);
+	background-image: url(../images/background-paper.jpg);
+} */
+
+
 
 .st-background.color-2 ul.decorated li::before {
     color: var(--color-black);

@@ -11,7 +11,7 @@ page {
 		
 		linkAppWeb.value = /app
 		linkAppGoogle.value = https://play.google.com/store/apps/details?id=de.zubido.baeckerhandwerk
-		linkAppApple.value = https://apps.apple.com/us/app/xxx
+		linkAppApple.value = https://apps.apple.com/us/app/bddz-azubi-app-2-0/id6450054394
 	}
 	
 	meta {
